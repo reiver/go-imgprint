@@ -15,7 +15,7 @@ import (
 //	imgprint.ImgPrint(
 //		dstimg,
 //		x, y,
-//		imgprint.ColoredImage(red, "Hello world!"),
+//		imgprint.ColoredString(red, "Hello world!"),
 //	)
 func ColoredString(c color.Color, str string) StyledStringer {
 	return internalColoredString{
