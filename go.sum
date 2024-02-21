@@ -1,0 +1,6 @@
+golang.org/x/image v0.15.0 h1:kOELfmgrmJlw4Cdb7g/QGuB3CvDrXbqEIww/pNtNBm8=
+golang.org/x/image v0.15.0/go.mod h1:HUYqC05R2ZcZ3ejNQsIHQDQiwWM4JBqmm6MKANTp4LE=
+sourcecode.social/reiver/go-erorr v0.0.0-20230922202459-231149d185a1 h1:wpnz4JicQBLWrgGphYBls7DysIFCcnWgDz/vce/sY8E=
+sourcecode.social/reiver/go-erorr v0.0.0-20230922202459-231149d185a1/go.mod h1:NFtd7fzEf0r6A6R7JXYZfayRhPaJy0zt/18VWoLzrxA=
+sourcecode.social/reiver/go-imgrow v0.0.0-20240221162616-6b2850536a69 h1:MEDktyci9z0VTQB3zur+ZzfGrnOiyD3LAWDMvFOUbak=
+sourcecode.social/reiver/go-imgrow v0.0.0-20240221162616-6b2850536a69/go.mod h1:xCH9EIBd28iIVttT5TaUgJH2ddZoiF+HFy21A+yR60I=
