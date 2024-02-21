@@ -23,6 +23,22 @@ x,y = 10,50
 imgprint.ImgPrint(img, x, y, "Hello world")
 ```
 
+The color of the text defaults to **hot magenta**.
+
+If you want to pick the color the text yourself, then you would use `imgprint.ColoredString()`, as in:
+
+```golang
+// This is the image that we print the text on.
+var img image.Image // = ...
+
+// This is where on the image where we start printing the text string.
+x,y = 10,50
+
+var textColor color.Color = color.NRGBA{0x1E,0x5A,0xA8, 0xFF} // blue
+
+imgprint.ImgPrint(img, x, y, imgprint.ColoredString(textColor,"Hello world"))
+```
+
 ## Import
 
 To import package **imgprint** use `import` code like the follownig:
