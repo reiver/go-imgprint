@@ -14,6 +14,12 @@ import (
 
 // ImgPrint draw text on an image.
 //
+// The simplest example of using ImgPrint is:
+//
+//	imgprint.ImgPrint(dstimg, x, y, "Hello world!")
+//
+// ... which would draw the text "Hello world!" onto the image 'dstimg' starting a (x,y).
+//
 // 'dstimg' is the image where the text will be draw.
 // Whomever calls ImagePrint needs to create this image before hand.
 //
